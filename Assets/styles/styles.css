@@ -27,5 +27,8 @@
 }
 .guardar:hover,.tablero:hover{
     background-color:rgb(157, 37, 18) !important;
+}
 
+#principal-img:hover{
+    border:3px solid #000;
 }
