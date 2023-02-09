@@ -26,44 +26,37 @@
 }
 .guardar:hover,.tablero:hover{
     background-color:rgb(157, 37, 18) !important;
-}
-
-.arrow-ico{
-    bottom:40px;
-    left:20px;
-    font-size:20px;
-    color:transparent;
-    text-decoration: none;
-    border-radius: 30px;
-    padding:10px;
-}
-
-#principal-img:hover ~ .arrow-ico{
-    color:#000;
-    border:1px solid #000;
-    background-color: #eee;
-}
-
-.arrow-ico:hover{
-    color: #444;
-    border:1px solid #000;
-}
-
-.zoom-ico{
-    right:70px;
-    top:210px;
-}
-.h3{
-    color:#000;
-    font-weight: bold;
-    text-align: center;
-    right: 0;
-    padding: 10px;
-    width: 50px;
 
 }
-.h3:hover{
-
-    background-color: #eee ;
-    cursor:pointer;
+.card-footer {
+    height: 100px;
 }
+.card-footer input, .guardar-tablero input {
+    background-color: #d4d4d4;
+    border: none;
+}
+.card-footer input:focus, .guardar-tablero input:focus {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+}
+.card {
+    box-shadow: 2px 2px 20px #ccc;
+}
+.img-perfil {
+    height: 50px;
+}
+.guardar-tablero {
+    width: 250px;
+}
+  .guardar-tablero h3 {
+    font-size: 1rem;
+}
+.guardar-tablero input {
+    width: 80%;
+}
+
+.btn-dark {
+    background-color: #fff;
+    color: #222;
+    border: none;
+  }

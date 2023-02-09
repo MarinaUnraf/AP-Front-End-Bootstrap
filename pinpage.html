@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon"
-        href="https://icons-for-free.com/download-icon-logo+pinterest+social+social+network+website+icon-1320191931848219146_512.png"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="https://icons-for-free.com/download-icon-logo+pinterest+social+social+network+website+icon-1320191931848219146_512.png" type="image/x-icon"> 
     <!-- Bootstrap CSS reference -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- custom CSS styles -->
     <link rel="stylesheet" href="./Assets/styles/styles.css">
     <title>Pin | Pinteresto!</title>
 </head>
-
 <body>
 
     <main class="container">
@@ -26,14 +20,11 @@
                 <div class="card rounded-5 mb-3 mt-4">
                     <div class="row g-0">
                         <div class="col-md-7">
-                            <a href="#" target="_blank" rel="noopener noreferrer"  id="principal-img">
-                                <img src="https://i.pinimg.com/originals/1c/49/5c/1c495ca096822512bc16eaec789ef128.jpg"
-                                   class="img-fluid rounded-start" alt="...">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="https://i.pinimg.com/originals/1c/49/5c/1c495ca096822512bc16eaec789ef128.jpg" class="img-fluid rounded-start rounded-start-5" alt="...">
                             </a>
-                            <a href="Hola" class="position-relative zoom-ico">ico</a>
-                            <a href="https://i.pinimg.com/originals/1c/49/5c/1c495ca096822512bc16eaec789ef128.jpg" target="_blank" class="position-relative arrow-ico"><i class="fa fa-thin fa-arrow-up"></i> Ver imagen</a>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 d-flex flex-column">
                             <div class="card-body">
                                 <div class="botones d-flex justify-content-between mt-md-3">
                                     <div class="left d-flex flex-row align-items-center">
@@ -47,28 +38,49 @@
                                             <img src="Assets/img/enlace.png" alt="Enlace">
                                         </a>
                                     </div>
-                                    <div class="rigth">
-                                        <a href="#" class="tablero">Tablero</a>
+                                    <div class="rigth d-flex gap-2">
+                                        <div class="btn-group dropstart">
+                                            <a href="#" class="tablero dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Tablero</a>
+                                            <div class="dropdown-menu guardar-tablero ">
+                                                <div class="d-flex flex-column align-items-center">
+                                                    <h3 class="text-center">Guardar en Tablero</h3>
+                                                    <input type="text" class="rounded-pill p-2 mt-2" placeholder="Buscar">
+                                                </div>
+                                                <h6 class="text-start mt-4 ms-2">Los más elegidos</h6>
+                                                <div class="d-flex flex-column justify-content-between p-2">
+                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                        <p class="text-start ps-2">Tablero de Prueba</p>
+                                                    </button>
+                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                        <p class="text-start ps-2">Tablero de Prueba</p>
+                                                    </button>
+                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                        <p class="text-start ps-2">Tablero de Prueba</p>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>                                    
                                         <a href="#" class="guardar">Guardar</a>
                                     </div>
                                 </div>
                                 <a href="#" class="link-subido"></a>
                                 <h1 class="mt-2">Título del Pin</h1>
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                                <h3 class="fixed-bottom h3 rounded-circle">?</h3>
-                                <footer class="d-flex">
-                                    <div class="card-footer d-flex justify-content-between">
-                                        <a href="#">
-                                            <img src="" alt="" class="rounded-pill">
-                                        </a>
-                                        <input type="text">
-                                    </div>
-                                </footer>
+                                
                             </div>
+                            <footer class="">
+                                <div class="card-footer d-flex justify-content-between gap-3 align-items-center">
+                                    <a href="#" class="">
+                                        <img src="https://i.pinimg.com/75x75_RS/6b/ad/f6/6badf61ae8b32e71c0958223b0241c74.jpg" alt="" class="rounded-pill img-perfil">
+                                    </a>
+                                    <input type="text" class="rounded-pill comentarios flex-grow-1 p-3" placeholder="Añade un comentario">
+                                </div>
+                            </footer>
                         </div>
                     </div>
                 </div>
@@ -81,5 +93,4 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
