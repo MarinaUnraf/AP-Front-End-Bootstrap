@@ -18,7 +18,8 @@
 }
 
 .guardar,
-.tablero {
+.tablero,
+.guardar_more {
     background-color: #f11;
     padding: 10px;
     color: #fff;
@@ -77,7 +78,7 @@
 .flex-container {
     justify-content: left;
     align-self: flex-end;
-    gap: 23rem;
+    gap: 27rem;
 }
 
 .search:hover {
@@ -87,12 +88,23 @@
 #viewimage {
     text-decoration: none;
     font-size: 20px;
-    color: #333;
-    padding-left:10px;
-    padding-top:10px;
-    padding-right: 10px;
+    color: #aaa;
+    padding:10px;
 }
 #viewimage:hover{
     border-radius: 30px;
-    background-color: rgb(200,200,200,.5);
+    background-color: rgba(155, 151, 151, 0.5);
 }
+.flex-container-more{
+    gap:1rem;
+}
+
+.guardar_more{
+    background-color:transparent;
+    color:transparent
+}
+
+.card-more:hover {
+box-shadow: 1px 2px;
+cursor: pointer;}
+
