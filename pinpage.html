@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://icons-for-free.com/download-icon-logo+pinterest+social+social+network+website+icon-1320191931848219146_512.png" type="image/x-icon"> 
+    <link rel="shortcut icon"
+        href="https://icons-for-free.com/download-icon-logo+pinterest+social+social+network+website+icon-1320191931848219146_512.png"
+        type="image/x-icon">
     <!-- Bootstrap CSS reference -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- custom CSS styles -->
     <link rel="stylesheet" href="./Assets/styles/styles.css">
+    <script src="https://kit.fontawesome.com/1536ef4e00.js" crossorigin="anonymous"></script>
     <title>Pin | Pinteresto!</title>
 </head>
+
 <body>
 
     <main class="container">
@@ -19,10 +24,23 @@
             <div class="col-sm-12 col-md-10 mx-auto">
                 <div class="card rounded-5 mb-3 mt-4">
                     <div class="row g-0">
-                        <div class="col-md-7">
+
+                        <div class="col-md-7 principal-image">
                             <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="https://i.pinimg.com/originals/1c/49/5c/1c495ca096822512bc16eaec789ef128.jpg" class="img-fluid rounded-start rounded-start-5" alt="...">
+                                <img src="https://i.pinimg.com/originals/1c/49/5c/1c495ca096822512bc16eaec789ef128.jpg"
+                                    class="img-fluid rounded-start rounded-start-5" alt="...">
                             </a>
+                        </div>
+                        <div class="icon d-flex flex-row position-absolute flex-container">
+                            <a href="#" id="viewimage"><i class="fa fa-duotone fa-arrow-up-right-from-square"></i>
+                                View image</a>
+
+                            <a href="#" class="search"><svg class="gUZ R19 U9O kVc" height="30" width="30" viewBox="0 0 24 24"
+                                    aria-hidden="true" aria-label="" role="img">
+                                    <path
+                                        d="M19 1h-3v2h3c1.103 0 2 .897 2 2v3h2V5c0-2.206-1.794-4-4-4zm2 18c0 1.103-.897 2-2 2h-3v2h3c2.206 0 4-1.794 4-4v-3h-2zM3 19v-3H1v3c0 2.206 1.794 4 4 4h3v-2H5c-1.103 0-2-.897-2-2zM3 5c0-1.103.897-2 2-2h3V1H5C2.794 1 1 2.794 1 5v3h2zm6 6.5C9 10.122 10.122 9 11.5 9s2.5 1.122 2.5 2.5-1.122 2.5-2.5 2.5S9 12.878 9 11.5zm7.5 6.5a1.502 1.502 0 0 0 1.061-2.561l-2.012-2.011A4.444 4.444 0 0 0 16 11.5C16 9.019 13.981 7 11.5 7S7 9.019 7 11.5 9.019 16 11.5 16c.693 0 1.341-.17 1.928-.451l2.011 2.012c.293.293.677.439 1.061.439z">
+                                    </path>
+                                </svg></a>
                         </div>
                         <div class="col-md-5 d-flex flex-column">
                             <div class="card-body">
@@ -40,45 +58,56 @@
                                     </div>
                                     <div class="rigth d-flex gap-2">
                                         <div class="btn-group dropstart">
-                                            <a href="#" class="tablero dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Tablero</a>
+                                            <a href="#" class="tablero dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">Tablero</a>
                                             <div class="dropdown-menu guardar-tablero ">
                                                 <div class="d-flex flex-column align-items-center">
                                                     <h3 class="text-center">Guardar en Tablero</h3>
-                                                    <input type="text" class="rounded-pill p-2 mt-2" placeholder="Buscar">
+                                                    <input type="text" class="rounded-pill p-2 mt-2"
+                                                        placeholder="Buscar">
                                                 </div>
                                                 <h6 class="text-start mt-4 ms-2">Los más elegidos</h6>
                                                 <div class="d-flex flex-column justify-content-between p-2">
-                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
-                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                    <button type="button"
+                                                        class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg"
+                                                            alt="" class="rounded">
                                                         <p class="text-start ps-2">Tablero de Prueba</p>
                                                     </button>
-                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
-                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                    <button type="button"
+                                                        class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg"
+                                                            alt="" class="rounded">
                                                         <p class="text-start ps-2">Tablero de Prueba</p>
                                                     </button>
-                                                    <button type="button" class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
-                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg" alt="" class="rounded">
+                                                    <button type="button"
+                                                        class="btn btn-dark d-flex p-2 justify-content-start align-items-center">
+                                                        <img src="https://i.pinimg.com/75x75/9e/48/66/9e4866c3acb65c132f26b53bd8c0d05b.jpg"
+                                                            alt="" class="rounded">
                                                         <p class="text-start ps-2">Tablero de Prueba</p>
                                                     </button>
                                                 </div>
                                             </div>
-                                        </div>                                    
+                                        </div>
                                         <a href="#" class="guardar">Guardar</a>
                                     </div>
                                 </div>
                                 <a href="#" class="link-subido"></a>
                                 <h1 class="mt-2">Título del Pin</h1>
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                
+
                             </div>
                             <footer class="">
                                 <div class="card-footer d-flex justify-content-between gap-3 align-items-center">
                                     <a href="#" class="">
-                                        <img src="https://i.pinimg.com/75x75_RS/6b/ad/f6/6badf61ae8b32e71c0958223b0241c74.jpg" alt="" class="rounded-pill img-perfil">
+                                        <img src="https://i.pinimg.com/75x75_RS/6b/ad/f6/6badf61ae8b32e71c0958223b0241c74.jpg"
+                                            alt="" class="rounded-pill img-perfil">
                                     </a>
-                                    <input type="text" class="rounded-pill comentarios flex-grow-1 p-3" placeholder="Añade un comentario">
+                                    <input type="text" class="rounded-pill comentarios flex-grow-1 p-3"
+                                        placeholder="Añade un comentario">
                                 </div>
                             </footer>
                         </div>
@@ -93,4 +122,5 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
