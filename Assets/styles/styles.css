@@ -83,28 +83,46 @@
 
 .search:hover {
     background-color: #ccc;
+    color:#ccc;
 }
+
 
 #viewimage {
     text-decoration: none;
     font-size: 20px;
-    color: #aaa;
-    padding:10px;
+    color: transparent;
+    background-color: transparent;
+    padding: 10px;
 }
 #viewimage:hover{
     border-radius: 30px;
-    background-color: rgba(155, 151, 151, 0.5);
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.flex-container-more{
-    gap:1rem;
+.princ-image a:hover ~ .flex-container #viewimage {
+    border-radius: 30px;
+    color:#bbb;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+    
+.search:hover{
+background-color: rgb(200,200,200,.3);
+}
+.flex-container-more {
+    gap: 1rem;
 }
 
-.guardar_more{
-    background-color:transparent;
-    color:transparent
+.flex-container a{
+    position:relative;
+    bottom:60px;
+}
+
+.guardar_more {
+    background-color: transparent;
+    color: transparent
 }
 
 .card-more:hover {
-box-shadow: 1px 2px;
-cursor: pointer;}
-
+    box-shadow: 1px 2px;
+    cursor: pointer;
+}
