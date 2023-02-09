@@ -4,7 +4,6 @@
     width: 40px;
     height: 40px;
     transition: all 0.2s;
-    display: block;
     text-align: center;
     margin: 0 10px;
 }
@@ -29,6 +28,28 @@
     background-color:rgb(157, 37, 18) !important;
 }
 
-#principal-img:hover{
-    border:3px solid #000;
+.arrow-ico{
+    bottom:40px;
+    left:20px;
+    font-size:20px;
+    color:transparent;
+    text-decoration: none;
+    border-radius: 30px;
+    padding:10px;
+}
+
+#principal-img:hover ~ .arrow-ico{
+    color:#000;
+    border:1px solid #000;
+    background-color: #eee;
+}
+
+.arrow-ico:hover{
+    color: #444;
+    border:1px solid #000;
+}
+
+.zoom-ico{
+    right:70px;
+    top:210px;
 }
