@@ -1,0 +1,5 @@
+.flex-container {
+    justify-content: left;
+    align-self: flex-end;
+    gap: 13rem;
+}
