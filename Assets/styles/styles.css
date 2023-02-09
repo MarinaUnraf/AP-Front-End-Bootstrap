@@ -8,9 +8,24 @@
     text-align: center;
     margin: 0 10px;
 }
-.botones > div > a:hover {
-    background-color: #e9e9e9;
-}
+
 .botones > div > a > img {
     width: 20px;
+}
+
+.botones > div > a:hover {
+    background-color: #e9e9e9;
+
+}
+
+.guardar,.tablero{
+    background-color: #f11;
+    padding:10px;
+    color:#fff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.guardar:hover,.tablero:hover{
+    background-color:rgb(157, 37, 18) !important;
+
 }
