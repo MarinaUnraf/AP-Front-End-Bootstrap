@@ -4,7 +4,6 @@
     width: 40px;
     height: 40px;
     transition: all 0.2s;
-    display: block;
     text-align: center;
     margin: 0 10px;
 }
@@ -21,4 +20,7 @@
     color: #fff;
     height: 43px;
     display: block;
+}
+.card {
+    box-shadow: 2px 2px 20px #ccc;
 }
