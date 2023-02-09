@@ -14,3 +14,11 @@
 .botones > div > a > img {
     width: 20px;
 }
+.guardar {
+    background-color: #e60023;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    height: 43px;
+    display: block;
+}
